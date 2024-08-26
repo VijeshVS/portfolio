@@ -43,8 +43,8 @@ const Homepage = ({homeRef}) => {
           </div>
           <div className="flex-1 flex justify-center items-center w-full">
             <img
-              className="w-56 h-56 lg:w-96 lg:h-96 object-cover rounded-full shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:border-4 hover:border-blue-500"
-              src="./mypic.jpeg"
+              className="w-56 h-56 lg:w-96 lg:h-96 object-cover rounded-full shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+              src="./avatar.svg"
               alt="My Photo"
             />
           </div>
