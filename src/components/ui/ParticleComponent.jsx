@@ -14,7 +14,6 @@ const ParticleComponent = ({ children }) => {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
   };
 
   const options = useMemo(
@@ -529,19 +528,20 @@ const ParticleComponent = ({ children }) => {
 
   if (init) {
     return (
-      <div className="relative h-screen bg-black">
+      <div style={ {height: 'calc(100vh - 70px)'} } className="relative mt-[70px]">
         <Particles
           className="absolute top-0 left-0 w-full h-full z-0"
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
         />
-        <div className="relative">{children}</div>
+        <div className="relative h-full z-10">{children}</div>
       </div>
     );
   }
 
-  return <></>;
+  return <>
+  </>;
 };
 
 export default ParticleComponent;
