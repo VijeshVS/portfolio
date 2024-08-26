@@ -23,7 +23,7 @@ const SkillzSection = ({ skillsRef }) => {
   return (
     <div
       ref={skillsRef}
-      className="flex flex-col py-12 bg-gradient-to-r from-violet-600 to-indigo-600"
+      className="flex space-y-2 flex-col py-16 bg-gradient-to-r from-violet-600 to-indigo-600"
     >
       <div className="flex py-6 text-white text-xl lg:text-3xl font-bold justify-center items-center">
       <FaLaptopCode 
