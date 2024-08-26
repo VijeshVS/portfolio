@@ -2,9 +2,9 @@ import Particles from '../components/ui/ParticleComponent'
 import React from "react";
 
 
-const Homepage = ({homeRef}) => {
+const Homepage = () => {
   return (
-    <div ref={homeRef}
+    <div
       style={{ height: "calc(100vh - 70px)" }}
       className="z-10 bg-slate-200 font-sans"
     >
@@ -43,7 +43,7 @@ const Homepage = ({homeRef}) => {
           </div>
           <div className="flex-1 flex justify-center items-center w-full">
             <img
-              className="w-56 h-56 lg:w-96 lg:h-96 object-cover rounded-full shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+              className="w-56 h-56 lg:w-96 lg:h-96 object-cover rounded-full transition-transform duration-300 hover:scale-105"
               src="./avatar.svg"
               alt="My Photo"
             />

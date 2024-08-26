@@ -528,7 +528,7 @@ const ParticleComponent = ({ children }) => {
 
   if (init) {
     return (
-      <div style={ {height: 'calc(100vh - 70px)'} } className="relative mt-[70px]">
+      <div style={ {height: 'calc(100vh - 70px)'} } className="relative">
         <Particles
           className="absolute top-0 left-0 w-full h-full z-0"
           id="tsparticles"

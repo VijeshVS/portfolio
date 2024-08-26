@@ -3,7 +3,7 @@ import React from "react";
 const AboutSection = ({aboutMeRef}) => {
   return (
     <div ref={aboutMeRef}
-      className="flex bg-gradient-to-r from-gray-50 py-6 to-gray-300  flex-col space-y-6"
+      className="flex bg-gradient-to-r from-gray-50 py-32 to-gray-300  flex-col space-y-6"
     >
       <h1 className="text-3xl font-medium text-center">About Me</h1>
       <div className="flex flex-col space-y-8 lg:space-y-0 items-center lg:flex-row space-x-4 px-0 lg:px-32">
