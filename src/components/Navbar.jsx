@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarLinkText from "../components/ui/NavbarLinkText";
 
-const Navbar = ({homeRef,aboutMeRef,skillsRef,eduRef}) => {
+const Navbar = ({homeRef,aboutMeRef,skillsRef,eduRef,projRef}) => {
   return (
     <div className="flex fixed top-0 w-full items-center z-50 space-x-4 justify-between py-5 px-4 lg:px-36 bg-white shadow-md">
       <div className="flex space-x-2 items-center hover:scale-105 hover:text-orange-500 cursor-pointer transition-all">
@@ -12,7 +12,7 @@ const Navbar = ({homeRef,aboutMeRef,skillsRef,eduRef}) => {
         <NavbarLinkText refs={aboutMeRef}>About</NavbarLinkText>
         <NavbarLinkText refs={skillsRef}>Skillz</NavbarLinkText>
         <NavbarLinkText refs={eduRef}>Education</NavbarLinkText>
-        <NavbarLinkText>Project</NavbarLinkText>
+        <NavbarLinkText refs={projRef}>Projects</NavbarLinkText>
         <NavbarLinkText>Contact me</NavbarLinkText>
       </div>
     </div>
