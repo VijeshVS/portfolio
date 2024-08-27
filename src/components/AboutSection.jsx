@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMediaShowcase from "./ui/SocialMediaIcon";
 
 const AboutSection = ({aboutMeRef}) => {
   return (
@@ -33,6 +34,7 @@ const AboutSection = ({aboutMeRef}) => {
           }} className="inline-flex py-2 w-fit animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#f0f4f8,45%,#e2e8f0,55%,#f0f4f8)] bg-[length:200%_100%] px-6 font-medium text-slate-600 transition-colors hover:outline-none hover:border-blue-700 hover:ring-slate-600 hover:ring-offset-2 hover:ring-offset-white">
             Resume
           </button>
+          <SocialMediaShowcase/>
         </div>
       </div>
     </div>

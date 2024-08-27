@@ -35,52 +35,43 @@ const SkillzSection = ({ skillsRef }) => {
           Technologies
         </h1>
       </div>
-      <div className="w-[330px] rounded-xl lg:w-[800px] mx-auto p-4 bg-violet-500">
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+      <div className="w-[330px] rounded-xl lg:w-[800px] mx-auto p-8 bg-violet-800">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <SkillCard skill={"React"}>
-            <FaReact color="cyan" fontSize={96} />
-          </SkillCard>
-          <SkillCard skill={"Express"}>
-            <SiExpress color="yellow" fontSize={96} />
+            <img src="./icons/react.svg" className="h-24 w-24"/>
           </SkillCard>
           <SkillCard skill={"NextJS"}>
-            <RiNextjsFill fontSize={96} />
-          </SkillCard>
-          <SkillCard skill={"NodeJS"}>
-            <FaNodeJs fontSize={96} color="lightgreen" />
-          </SkillCard>
-          <SkillCard skill={"Postgres"}>
-            <SiPostgresql fontSize={96} color="#336791" />
-          </SkillCard>
-          <SkillCard skill={"MongoDB"}>
-            <SiMongodb fontSize={96} color="green" />
-          </SkillCard>
-          <SkillCard skill={"Firebase"}>
-            <IoLogoFirebase fontSize={96} color="#FFCA28" />
+          <img src="./icons/nextjs.svg" className="h-24 w-24"/>
           </SkillCard>
           <SkillCard skill={"Tailwind"}>
-            <RiTailwindCssFill fontSize={96} color="#1E40AF" />
-          </SkillCard>
-          <SkillCard skill={"Docker"}>
-            <FaDocker fontSize={96} color="#2496ED" />
-          </SkillCard>
-          <SkillCard skill={"Redis"}>
-            <DiRedis fontSize={96} color="#D82C20" />
+          <img src="./icons/tailwind.svg" className="h-24 w-24"/>
           </SkillCard>
           <SkillCard skill={"Git"}>
-            <FaGithub fontSize={96} color="#181717" />
+          <img src="./icons/git.svg" className="h-24 w-24"/>
           </SkillCard>
-          <SkillCard skill={"Python"}>
-            <FaPython fontSize={96} color="#306998" />
+          <SkillCard skill={"NodeJS"}>
+          <img src="./icons/nodejs.svg" className="h-24 w-24"/>
+          </SkillCard>
+          <SkillCard skill={"MongoDB"}>
+          <img src="./icons/mongodb.svg" className="h-24 w-24"/>
+          </SkillCard>
+          <SkillCard skill={"Firebase"}>
+          <img src="./icons/firebase.svg" className="h-24 w-24"/>
+          </SkillCard>
+          <SkillCard skill={"Studio"}>
+          <img src="./icons/andr.svg" className="h-24 w-24"/>
+          </SkillCard>
+          <SkillCard skill={"Docker"}>
+          <img src="./icons/docker.svg" className="h-24 w-24"/>
+          </SkillCard>
+          <SkillCard skill={"Redis"}>
+          <img src="./icons/redis.svg" className="h-24 w-24"/>
           </SkillCard>
           <SkillCard skill={"Kafka"}>
-            <SiApachekafka fontSize={96} color="#000000" />
+          <img src="./icons/kafka.svg" className="h-24 w-24"/>
           </SkillCard>
-          <SkillCard skill={"My SQL"}>
-            <DiMysql fontSize={96} color="#000000" />
-          </SkillCard>
-          <SkillCard skill={"Java"}>
-            <FaJava fontSize={96} color="lightcyan" />
+          <SkillCard skill={"Postgres"}>
+          <img src="./icons/postgres.svg" className="h-24 w-24"/>
           </SkillCard>
         </div>
       </div>
