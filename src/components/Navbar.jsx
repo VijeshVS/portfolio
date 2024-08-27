@@ -13,7 +13,6 @@ const Navbar = ({homeRef,aboutMeRef,skillsRef,eduRef,projRef}) => {
         <NavbarLinkText refs={skillsRef}>Skillz</NavbarLinkText>
         <NavbarLinkText refs={eduRef}>Education</NavbarLinkText>
         <NavbarLinkText refs={projRef}>Projects</NavbarLinkText>
-        <NavbarLinkText>Contact me</NavbarLinkText>
       </div>
     </div>
   );

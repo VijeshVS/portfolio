@@ -9,26 +9,26 @@ const Projects = ({projRef}) => {
       description: "RSS Buddy is a user-friendly and efficient tool designed to help dealers in the petrol bunk to manage and track the credits provided to truck owners.",
       image: "./rss.png",
       link: "https://github.com/VijeshVS/rssbuddy",
-      tech: "Flask | Python"
+      tech: "Flask | Python | Postgres"
     },
     {
       title: "EatMyUrl",
       description: "A link shortening website. Allows you to create custom shortlinks and qrcodes. Provides detailed analysis of links shortened.",
       image: "./eurl.png",
       link: "https://eurl.dev/",
-      tech: "NextJS | Express | Kafka | Clickhouse"
+      tech: "NextJS | Express | Redis | Kafka | Clickhouse"
     },
     {
       title: "Chat-RTC",
       description: "A real-time chatting application with a user-friendly UI that allows one-to-one communication with people.",
       image: "./chatrtc.png",
       link: "https://chat-rtc.vercel.app/",
-      tech: "React | Express | Socket.io"
+      tech: "React | Tailwind | Express | Socket.io | Postgres"
     }
   ];
 
   return (
-    <div ref={projRef} className="bg-gradient-to-r py-16 from-violet-600 to-indigo-600 flex flex-col">
+    <div ref={projRef} className="bg-gradient-to-r py-16 from-violet-600 to-indigo-700 flex flex-col">
       <div className="flex font-bold justify-center">
         <IoIosRocket className="text-4xl text-white" />
         <h1 className="ml-2 text-white text-3xl">My </h1>
