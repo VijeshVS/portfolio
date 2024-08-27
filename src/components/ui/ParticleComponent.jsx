@@ -53,7 +53,7 @@ const ParticleComponent = ({ children }) => {
         detectsOn: "window",
         events: {
           onClick: {
-            enable: true,
+            enable: false,
             mode: "push",
           },
           onDiv: {
@@ -522,7 +522,7 @@ const ParticleComponent = ({ children }) => {
           value: true,
         },
       },
-    }),
+    }), 
     []
   );
 
