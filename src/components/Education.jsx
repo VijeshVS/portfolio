@@ -16,26 +16,28 @@ const Education = ({ eduRef }) => {
         
       <div className="flex flex-col w-fit space-y-8 items-center p-4">
 
-      <div className="flex flex-col w-full lg:flex-row bg-white p-4 lg:p-2 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+      <div className="flex flex-col w-fit lg:flex-row bg-white p-4 lg:p-2 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <div className="w-32 h-32 overflow-hidden rounded-lg mx-auto lg:mx-0">
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/7/74/Canara_Logo.png"
-              alt="Canara"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyawIRbc2YMupSsJT8UqUJmMJD4M4kWJ5CGg&s"
+              alt="RV College of Engineering"
               className="w-full h-full transform transition-transform"
             />
           </div>
           <div className="flex flex-col space-y-1 justify-center p-4 text-center lg:text-left">
             <h1 className="text-2xl font-bold text-blue-900 hover:text-blue-700 transition-colors">
-            Secondary & Higher Education
+              B.E in Information Science & Engg
             </h1>
             <h1 className="text-md text-gray-700 hover:text-gray-500 transition-colors">
-              Canara High School | Mangalore
+              RV College of Engineering | Bangalore
             </h1>
-            <h1 className="font-bold text-2xl text-green-500 hover:text-green-400 transition-colors">
-              
+            <h1 className="font-bold text-lg text-green-500 hover:text-green-400 transition-colors">
+              2023-2027
             </h1>
           </div>
         </div>
+
+      
 
         <div className="flex flex-col w-full lg:flex-row bg-white p-4 lg:p-2 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <div className="w-32 h-32 overflow-hidden rounded-lg mx-auto lg:mx-0">
@@ -58,28 +60,27 @@ const Education = ({ eduRef }) => {
           </div>
         </div>
 
-        <div className="flex flex-col w-fit lg:flex-row bg-white p-4 lg:p-2 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+        <div className="flex flex-col w-full lg:flex-row bg-white p-4 lg:p-2 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
           <div className="w-32 h-32 overflow-hidden rounded-lg mx-auto lg:mx-0">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyawIRbc2YMupSsJT8UqUJmMJD4M4kWJ5CGg&s"
-              alt="RV College of Engineering"
+              src="https://upload.wikimedia.org/wikipedia/en/7/74/Canara_Logo.png"
+              alt="Canara"
               className="w-full h-full transform transition-transform"
             />
           </div>
           <div className="flex flex-col space-y-1 justify-center p-4 text-center lg:text-left">
             <h1 className="text-2xl font-bold text-blue-900 hover:text-blue-700 transition-colors">
-              B.Tech in Information Technology
+            Secondary & Higher Education
             </h1>
             <h1 className="text-md text-gray-700 hover:text-gray-500 transition-colors">
-              RV College of Engineering | Bangalore
+              Canara High School | Mangalore
             </h1>
-            <h1 className="font-bold text-lg text-green-500 hover:text-green-400 transition-colors">
-              2027
+            <h1 className="font-bold text-2xl text-green-500 hover:text-green-400 transition-colors">
+              
             </h1>
           </div>
         </div>
 
-        
 
       </div>
       </div>
