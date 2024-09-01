@@ -21,6 +21,7 @@ const SocialMediaIcon = ({ icon, link }) => {
 const SocialMediaShowcase = () => {
   return (
     <div className="flex space-x-4">
+      <SocialMediaIcon icon="./linktree.svg" link="https://vslink.vercel.app" />
       <SocialMediaIcon icon="./twitter.svg" link="https://x.com/vijeshsshetty" />
       <SocialMediaIcon icon="./linkedin.svg" link="https://www.linkedin.com/in/vijeshsshetty/" />
       <SocialMediaIcon icon="./github.svg" link="https://github.com/vijeshvs" />
