@@ -30,7 +30,7 @@ const SkillzSection = ({ skillsRef }) => {
 
     className="text-3xl lg:text-4xl" 
   />
-        <h1 className="ml-3">Skillz &</h1>
+        <h1 className="ml-3">Skills &</h1>
         <h1 className="ml-1 bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400 text-transparent bg-clip-text">
           Technologies
         </h1>
