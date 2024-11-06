@@ -10,7 +10,7 @@ const Navbar = ({homeRef,aboutMeRef,skillsRef,eduRef,projRef}) => {
       <div className="md:flex space-x-8 hidden">
         <NavbarLinkText refs={homeRef}>Home</NavbarLinkText>
         <NavbarLinkText refs={aboutMeRef}>About</NavbarLinkText>
-        <NavbarLinkText refs={skillsRef}>Skillz</NavbarLinkText>
+        <NavbarLinkText refs={skillsRef}>Skills</NavbarLinkText>
         <NavbarLinkText refs={eduRef}>Education</NavbarLinkText>
         <NavbarLinkText refs={projRef}>Projects</NavbarLinkText>
       </div>
